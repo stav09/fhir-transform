@@ -5,6 +5,12 @@ import java.util.List;
 
 public class Bundle {
 
+	private String resourceType = "Bundle";
+
+	public String getResourceType() {
+		return resourceType;
+	}
+
 	private String type = "collection";
 	private List<Entry> entry = new ArrayList<>();
 
