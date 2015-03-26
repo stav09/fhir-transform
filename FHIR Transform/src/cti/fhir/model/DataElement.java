@@ -1,5 +1,6 @@
 package cti.fhir.model;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -15,7 +16,7 @@ public class DataElement {
 	private String publisher;
 	private Contact contact = new Contact();
 
-	private List<Element> element;
+	private List<Element> element = new ArrayList<>();
 
 	public String getResourceType() {
 		return resourceType;
