@@ -1,6 +1,7 @@
 package cti.fhir;
 
 import java.util.Map;
+import java.util.logging.Logger;
 
 import cti.fhir.model.Coding;
 import cti.fhir.model.DataElement;
@@ -19,6 +20,8 @@ public class Transform {
 	private static final String STATUS = "draft";
 
 	public static DataElement toDataElement(String sheetName, String version, String date, Map<String, String> fields) {
+
+		Logger.getAnonymousLogger().info("" + fields);
 		
 		DataElement de = new DataElement();
 
