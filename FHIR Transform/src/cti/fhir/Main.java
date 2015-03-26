@@ -11,12 +11,12 @@ public class Main {
 	public static void main(String ... args) throws Exception {
 		
 		List<DataElement> elements = 
-				CsvFile.process(args[0], Transform::toDataElement);
+				CsvFile.process(args[0], args[1], args[2]);
 		
 		Bundle bundle = new Bundle();
 		bundle.addEntries(elements);
 		
-		JsonFile.write(args[1], bundle);
+		JsonFile.write(args[3], bundle);
 	}
 
 }

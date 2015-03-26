@@ -1,15 +1,16 @@
 package cti.fhir;
 
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-import java.util.function.Function;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
+
+import cti.fhir.model.DataElement;
 
 public class CsvFile {
 
@@ -19,12 +20,13 @@ public class CsvFile {
 	public static String UCUM_CODE = "UCUM";
 	public static String COMMENTS = "Comments";
 	
-	public static <T> List<T> process(String filePath, Function<Map<String,String>, T> processor) throws IOException {
+	public static List<DataElement> process(String filePath, String version, String date) throws IOException {
 		Reader in = new FileReader(filePath);
+		File file = new File(filePath);
 		Iterable<CSVRecord> records = CSVFormat.TDF.parse(in);
-		ArrayList<T> rows = new ArrayList<T>();
+		ArrayList<DataElement> rows = new ArrayList<>();
 		for (CSVRecord record : records) {
-			rows.add(processor.apply(record.toMap()));
+			rows.add(Transform.toDataElement(file.getName(), version, date, record.toMap()));
 		}
 		return rows;
 	}

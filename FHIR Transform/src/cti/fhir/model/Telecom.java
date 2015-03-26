@@ -2,15 +2,15 @@ package cti.fhir.model;
 
 public class Telecom {
 
-	private String url;
+	private String system;
 	private String value;
 
-	public String getUrl() {
-		return url;
+	public String getSystem() {
+		return system;
 	}
 
-	public void setUrl(String url) {
-		this.url = url;
+	public void setSystem(String system) {
+		this.system = system;
 	}
 
 	public String getValue() {
