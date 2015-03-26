@@ -23,10 +23,11 @@ public class CsvFile {
 	public static List<DataElement> process(String filePath, String version, String date) throws IOException {
 		Reader in = new FileReader(filePath);
 		File file = new File(filePath);
-		Iterable<CSVRecord> records = CSVFormat.DEFAULT.parse(in);
+
+		Iterable<CSVRecord> records = CSVFormat.DEFAULT.withHeader().withSkipHeaderRecord(true).parse(in);
 		ArrayList<DataElement> rows = new ArrayList<>();
 		for (CSVRecord record : records) {
-			rows.add(Transform.toDataElement(file.getName(), version, date, record.toMap()));
+			rows.add(Transform.toDataElement(file.getName().replace(".csv", ""), version, date, record.toMap()));
 		}
 		return rows;
 	}
