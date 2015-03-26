@@ -2,6 +2,7 @@ package cti.fhir;
 
 import java.util.List;
 
+import cti.fhir.model.Bundle;
 import cti.fhir.model.DataElement;
 
 
@@ -12,7 +13,8 @@ public class Main {
 		List<DataElement> elements = 
 				CsvFile.process("~/Downloads/Haematology.csv", Transform::toDataElement);
 		
-		
+		Bundle bundle = new Bundle();
+		bundle.addEntries(elements);
 	}
 
 }
