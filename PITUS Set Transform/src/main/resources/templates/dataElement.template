@@ -1,0 +1,28 @@
+{
+  "resourceType" : "DataElement",
+  "url" : "http://hl7.org/au/pitus/%%name%%-%%LOINC%%", 
+  "version" : "%%version%%", 
+  "name" : "%%Preferred Name%%", 
+  "useContext" : [{ "FIXME" : "FIXME" }], 
+  "status" : "draft", 
+  "date" : "%%date%%", 
+  "copyright" : "FIXME", 
+  "publisher" : "RCPA", 
+  "contact" : [{ 
+    "telecom" : [{ 
+      "system" : "url",
+      "value" : "http://rcpa.edu.au" 
+    }] 
+  }],
+  "element" : [{ 
+%%unitExtension%%
+    "path" : "FIXME", 
+    "code" : [{
+      "system" : "http://loinc.org",
+      "code" : "%%LOINC%%"
+    }],
+    "alias" : "%%Synonym%%",
+    "comments" : "%%Comments%%",
+    "type" : [{ "code" : "Quantity" }]
+  }] 
+}

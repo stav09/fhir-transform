@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "text": {
+    "status": "FIXME",
+    "div": "<div>FIXME</div>"
+  },
+  "identifier": "http://rcpa.edu.au/fhir/valueset/%%name%%",
+  "version": "%%version%%",
+  "name": "%%name%%",
+  "publisher": "RCPA",
+  "telecom": [
+    {
+      "system": "url",
+      "value": "http://rcpa.edu.au"
+    }
+  ],
+  "description": "FIXME",
+  "status": "draft",
+  "experimental": false,
+  "date": "%%date%%",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": [
+%%elements%%
+        ]
+      }
+    ]
+  }
+}

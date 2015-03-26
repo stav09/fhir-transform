@@ -1,0 +1,110 @@
+Preferred Name,Synonym,UCUM,LOINC,Comments
+Activated partial thromboplastin time ,APTT,s,14979-9,
+Activated protein C resistance,APCR,No unit ,13590-5,
+Anti Xa levels,,U/mL,32684-3,
+Antibody identification,Ab,No unit ,888-8,
+Antithrombin,"AT, ATIII",%,27811-9,
+Basophils ,Baso,10*9/L,26444-0,
+Blood film examination,Film,No unit ,18314-5,
+Blood group,Group,No unit ,882-1,
+Blood group antibody screen,Screen,No unit ,890-4,
+Cold agglutinins,Cold aggs,No unit ,32672-8,For qualitative reporting
+Cold agglutinins,Cold aggs,titre,14658-9,
+D-Dimer,,mg/L,48066-5,DDU
+D-Dimer,,mg/L,48065-7,FEU
+D-Dimer,,No unit ,15179-5,For qualitative reporting
+Dilute Russel viper venom ratio,DRVVT ,No unit ,15359-3,
+heal,"DAT, Coomb's",No unit ,1007-4,
+Donath-Landsteiner test,,No unit ,18286-5,
+Echis time,,s,60242-5,
+Eosinophils ,"Eosin, eos",10*9/L,26449-9,
+Erythrocyte sedimentation rate,ESR,mm/h,30341-2,
+Erythropoietin,EPO ,IU/L,14714-0,
+Factor IX,fIX,U/mL,3188-0,Reporting in U/mL
+Factor IX,fX,%,3187-2,Reporting in %
+Factor V,fV,U/mL,3192-2,Reporting in U/mL
+Factor V,fV,%,3193-0,Reporting in %
+Factor V mutation (Leiden),FVL,No unit ,21668-9,
+Factor VII,fVII,U/mL,3199-7,Reporting in U/mL
+Factor VII,fVII,%,3198-9,Reporting in %
+Factor VIII,fVIII,%,3209-4,Reporting in %
+Factor VIII,fVIII,U/mL,3208-6,Reporting in U/mL
+Factor VIII Inhibitor,fVIII inhibitor,Bethesda U,3204-5,
+Factor X,fX,U/mL,3219-3,Reporting in U/mL Chromogenic
+Factor X,fX,%,33984-6,Reporting in % Chromogenic
+Factor X,fX,%,3218-5,Reporting in % Coag method
+Factor XI,fXI,U/mL,3227-6,Reporting in U/mL
+Factor XI,fXI,%,3226-8,Reporting in %
+Factor XII,fXII,U/mL,3233-4,Reporting in U/mL
+Factor XII,fXII,%,3232-6,Reporting in %
+Fibrinogen,factor I,g/L,3255-7,
+Foetomaternal haemorrhage ,"FMH, kleihauer",mL,48555-7,Reporting volume 
+Foetomaternal haemorrhage ,FMH,No unit ,14276-0,For qualitative reporting
+Foetomaternal haemorrhage ,FMH,%,55729-8,Flow cytometry method reporting in %
+Glucose-6-Phosphate Dehydrogenase,G6PD,No unit ,2356-4,For qualitative reporting
+Glucose-6-Phosphate Dehydrogenase,G6PD,U/g,2357-2,
+Haematocrit,Hct,L/L,4544-3,
+Haemoglobin,Hb,g/L,718-7,
+Haemoglobin A2,HbA2,%,4551-8,
+Haemoglobin F,HbF,%,4576-5,
+Haemoglobin H,HbH,%,4588-0,
+Haemoglobin plasma,Hb plasma,mg/L,721-1,
+Haemosiderin urine,,No unit ,4644-1,For qualitative reporting
+Haptoglobin,,g/L,4542-7,
+Heinz bodies,,No unit ,716-1,For qualitative reporting
+Heinz bodies ,,%,40718-9,
+Heparin-induced thrombocytopenia ,"HITS, HITTS",No unit ,34701-3,
+Infectious mononucleosis screen,IM ,No unit ,31418-7,For qualitative reporting
+INR,INR,No unit ,6301-6,
+Kaolin clotting time,KCT,s,48344-6,
+Lymphocytes ,lymph,10*9/L,26474-7,
+Lymphocytes atypical,"lymphocytes reactive, atyps",10*9/L,26477-0,
+Malaria,,No unit ,51587-4,For qualitative reporting
+Malaria ICT,,No unit ,51865-4,Method detecting HRP2
+Malaria ICT ,,No unit ,50688-1,Method detecting LD
+Malaria parasite density,,/uL,XXXXX-X,Reporting parasites/uL
+Malaria parasite density,,%,53556-7,Reporting in %
+Malaria parasite stages,,No unit ,41451-6,Reporting plasmodium stages
+Malaria parasite stages,,No unit ,XXXXX-X,
+Malaria species,,No unit ,32206-5,Reporting plasmodium species
+Mean cell haemoglobin,MCH,pg,785-6,
+Mean cell haemoglobin concentration,MCHC,g/L,786-4,
+Mean cell volume,MCV,fL,787-2,
+Monocytes ,"mono, monos",10*9/L,26484-6,
+Neutrophils ,"neut,neuts",10*9/L,26499-4,
+Neutrophils band form,bands,10*9/L,26507-4,
+Nucleated red blood cells,NRBC,10*9/L,771-6,Absolute count
+Nucleated red blood cells,NRBC,%,19048-8,Reporting in %
+Platelet aggregation,Platelet aggs,%,13592-1,
+Platelet aggregation qualitative,,No unit ,21027-8,
+Platelet count,,10*9/L,777-3,
+Platelet distribution width,PDW,fL,32207-3,
+Platelet Function,PFA-100 ,s,24472-3,For methods with ADP
+Platelet Function,PFA-100,s,24471-5,For methods with ADP
+Platelet mean volume,PMV,fL,32623-1,
+Protein C,PC,U/mL,6006-1,Reporting in U/mL
+Protein C,PC,%,27819-2,Reporting in %
+Protein S,PS,%,31102-7,Reporting in % with chromogenic assay
+Protein S,PS,%,27822-6,Reporting in % with coag assay
+Protein S,PS,U/mL,5893-3,Reporting in U/mL with chromogenic assay
+Protein S,PS,U/mL,5892-5,Reporting in U/mL with coag assay
+Protein S Free,free PS,%,27821-8,Reporting in %
+Protein S Free ,free PS,U/mL,4677-1,Reporting in U/mL
+Prothrombin 20210,PT20210,No unit ,24475-6,
+Prothrombin time,PT,s,5902-2,
+Red cell count,RCC,10*12/L,789-8,
+Red cell distribution width,RDW,%,788-0,%
+Red cell distribution width ,RDW,fL,21000-5,Volume
+Reticulocytes,"Retic, retics",10*9/L,14196-0,Absolute count
+Reticulocytes,"retic, retics",%,4679-7,Reporting in %
+Reticulocytes immature,"retics, immature",%,33516-6,
+Thrombin time,"TCT,TT",s,3243-3,
+Von Willebrand factor Ag,vWF:Ag,%,27816-8,Reporting in %
+von Willebrand factor Ag,vWF:Ag,U/mL,6012-9,Reporting in U/mL
+Von Willebrand factor collagen binding,vWF:CBA,U/mL,XXXXX-X,Reporting in U/mL
+Von Willebrand factor collagen binding ,vWF:CBA,%,50377-1,Reporting in %
+von Willebrand factor multimers,Multimers,No unit ,32217-2,
+von Willebrand Factor Ristocetin Co-fact,VWF:RCof,U/mL,4680-5,Reporting in U/mL
+von Willebrand Factor Ristocetin Co-fact,VWF:RCof,%,6014-5,Reporting in %
+VWF:Collagen binding/ VWF:Ag,vWF:CBA/vWF:Ag,No unit ,50378-9,
+White cell count,WCC,6690-2,,

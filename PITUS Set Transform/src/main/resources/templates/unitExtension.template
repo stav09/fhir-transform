@@ -1,0 +1,6 @@
+    "extension" : [{
+       "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-allowedUnits",
+       "valueCodeableConcept" : {
+          "text" : "%%UCUM%%"
+       }
+     }],
