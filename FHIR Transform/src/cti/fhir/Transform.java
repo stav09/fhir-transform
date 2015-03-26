@@ -2,14 +2,15 @@ package cti.fhir;
 
 import java.util.Map;
 
-import cti.fhir.model.Element;
+import cti.fhir.model.DataElement;
 
 public class Transform {
 	
-	public static Element toElement(Map<String, String> fields) {
+	public static DataElement toDataElement(Map<String, String> fields) {
 		
-		Element e = new Element();
-		e.setAlias(fields.get("alias"));
+		DataElement e = new DataElement();
+		
+		//TODO
 		
 		return e;
 	}

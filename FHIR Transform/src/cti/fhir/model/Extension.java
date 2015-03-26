@@ -3,7 +3,7 @@ package cti.fhir.model;
 public class Extension {
 	
 	private String url;
-	private ValueCodeableConcept valueCodeableConcept;
+	private ValueCodeableConcept valueCodeableConcept = new ValueCodeableConcept();
 
 	public String getUrl() {
 		return url;

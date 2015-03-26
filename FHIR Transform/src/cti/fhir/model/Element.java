@@ -2,7 +2,7 @@ package cti.fhir.model;
 
 public class Element {
 	
-	private Extension extension;
+	private Extension extension = new Extension();
 	private String path;
 	private String alias;
 	private String comments;
