@@ -13,6 +13,12 @@ import org.apache.commons.csv.CSVRecord;
 
 public class CsvFile {
 
+	public static String LOINC_CODE = "LOINC";
+	public static String PREFERRED_NAME = "Preferred Name";
+	public static String SYNONYM = "Synonym";
+	public static String UCUM_CODE = "UCUM";
+	public static String COMMENTS = "Comments";
+	
 	public static <T> List<T> process(String filePath, Function<Map<String,String>, T> processor) throws IOException {
 		Reader in = new FileReader(filePath);
 		Iterable<CSVRecord> records = CSVFormat.TDF.parse(in);
