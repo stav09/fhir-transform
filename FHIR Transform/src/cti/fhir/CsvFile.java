@@ -13,7 +13,7 @@ import org.apache.commons.csv.CSVRecord;
 
 public class CsvFile {
 
-	public static <T> List<T> toJson(String filePath, Function<Map<String,String>, T> processor) throws IOException {
+	public static <T> List<T> process(String filePath, Function<Map<String,String>, T> processor) throws IOException {
 		Reader in = new FileReader(filePath);
 		Iterable<CSVRecord> records = CSVFormat.TDF.parse(in);
 		ArrayList<T> rows = new ArrayList<T>();

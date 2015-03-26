@@ -2,8 +2,15 @@ package cti.fhir;
 
 import java.util.Map;
 
+import cti.fhir.model.Element;
+
 public class Transform {
-	public static String toFhirJson(Map<String, String> fields) {
-		return null; //FIXME;
+	
+	public static Element toElement(Map<String, String> fields) {
+		
+		Element e = new Element();
+		e.setAlias(fields.get("alias"));
+		
+		return e;
 	}
 }
